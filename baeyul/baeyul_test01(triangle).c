@@ -3,7 +3,7 @@
 void main()
 {
   int arr[MAX] [MAX] ={0};
-  int i, j n=0;
+  int i, j, n=0;
   for(i=0; i<MAX; i++) {
     for(j=0; j<MAX; j++) {
       n++;
@@ -20,6 +20,6 @@ for(i=0; i<MAX; i++) {
       printf("%3d",arr[i][j]);
     }
   }
+  printf("\n");
 }
-printf("\n");
 }
